@@ -7,7 +7,7 @@ windowsill to /output/entry.txt. Clears nothing; the grader owns /output.
 
 from pathlib import Path
 
-LINE = "Good fortune grows toward you: a sunny spot, a gentle watering, and a human who finally reads the care tag."
+LINE = "Your fortune, little leaf: sunlight, rain, and a human who finally waters you instead of just talking to you."
 
 out = Path("/output")
 out.mkdir(parents=True, exist_ok=True)
